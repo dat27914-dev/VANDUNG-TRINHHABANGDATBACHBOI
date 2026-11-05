@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng Điểm Học Sinh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f7f6;
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #e0e0e0;
+            padding: 12px 18px;
+            text-align: center;
+        }
+        th {
+            background-color: #2980b9;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        td:first-child, th:first-child {
+            text-align: left;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f9fc;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>BẢNG ĐIỂM TỔNG KẾT CÁC MÔN HỌC</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Họ và Tên</th>
+                <th>Điểm Toán</th>
+                <th>Điểm Vật Lý</th>
+                <th>Điểm Hóa Học</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nguyễn Văn An</td>
+                <td>8.5</td>
+                <td>7.5</td>
+                <td>9.0</td>
+            </tr>
+            <tr>
+                <td>Trần Thị Bình</td>
+                <td>9.0</td>
+                <td>8.0</td>
+                <td>8.5</td>
+            </tr>
+            <tr>
+                <td>Lê Hoàng Cường</td>
+                <td>6.5</td>
+                <td>7.0</td>
+                <td>6.0</td>
+            </tr>
+            <!-- Bạn có thể bổ sung thêm các hàng phía dưới tại đây -->
+        </tbody>
+    </table>
+
+</body>
+</html>
